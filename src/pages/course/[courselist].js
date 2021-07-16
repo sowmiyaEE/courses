@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from "../component/Layout";
 const Post=({cote}) => {
-return <Layout><div>The contents: {cote}</div></Layout>;
+return (<Layout><div>The contents: {cote}</div></Layout>);
 };
 
 
