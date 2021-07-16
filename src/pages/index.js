@@ -4,15 +4,15 @@ import Layout from "../component/Layout";
 import fs from 'fs';
 
 const Home=({ slugs }) => (
-     return(
+   
 <Layout>
 <div>
     slugs:
    {slugs.map(slug => {
- 
+   return(
   <div key={slug}>  
-    <Link href={slug}>
-       <a>{slug}</a>
+    <Link href={"/course/"+slug}>
+       <a>{"/course/"+slug}</a>
     </Link>
   </div>
   );
