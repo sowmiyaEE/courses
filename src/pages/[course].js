@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout from "../components/Layout";
+import Layout from "../component/Layout";
 const Post=({cote}) => {
 return <Layout><div>The contents: {cote}</div></Layout>;
 };
